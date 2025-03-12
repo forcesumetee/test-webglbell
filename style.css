@@ -1,0 +1,42 @@
+body { margin: 0; overflow: hidden; font-family: Arial, sans-serif; }
+canvas { display: block; }
+
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    margin: 5px 0;
+    padding: 8px 12px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
